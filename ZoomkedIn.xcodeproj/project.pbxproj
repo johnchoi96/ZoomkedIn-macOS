@@ -98,10 +98,10 @@
 		D2ABD18125AC2F1B00E69D8A /* ZoomkedIn */ = {
 			isa = PBXGroup;
 			children = (
-				D2ABD18225AC2F1B00E69D8A /* AppDelegate.swift */,
-				D2ABD18425AC2F1B00E69D8A /* ViewController.swift */,
+				D2ABD1B425AC2FA800E69D8A /* Delegates */,
+				D2ABD1B825AC2FAD00E69D8A /* Controllers */,
 				D2ABD18925AC2F1C00E69D8A /* Assets.xcassets */,
-				D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */,
+				D2ABD1C625AC2FC600E69D8A /* Views */,
 				D2ABD18E25AC2F1C00E69D8A /* Info.plist */,
 				D2ABD18F25AC2F1C00E69D8A /* ZoomkedIn.entitlements */,
 				D2ABD18625AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld */,
@@ -125,6 +125,30 @@
 				D2ABD1A525AC2F1C00E69D8A /* Info.plist */,
 			);
 			path = ZoomkedInUITests;
+			sourceTree = "<group>";
+		};
+		D2ABD1B425AC2FA800E69D8A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD18225AC2F1B00E69D8A /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D2ABD1B825AC2FAD00E69D8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD18425AC2F1B00E69D8A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D2ABD1C625AC2FC600E69D8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
