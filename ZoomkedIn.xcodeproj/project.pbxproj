@@ -14,6 +14,7 @@
 		D2ABD18D25AC2F1C00E69D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */; };
 		D2ABD19925AC2F1C00E69D8A /* ZoomkedInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD19825AC2F1C00E69D8A /* ZoomkedInTests.swift */; };
 		D2ABD1A425AC2F1C00E69D8A /* ZoomkedInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD1A325AC2F1C00E69D8A /* ZoomkedInUITests.swift */; };
+		D2ABD1C925AC314E00E69D8A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2ABD1C825AC314E00E69D8A /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D2ABD19F25AC2F1C00E69D8A /* ZoomkedInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomkedInUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ABD1A325AC2F1C00E69D8A /* ZoomkedInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomkedInUITests.swift; sourceTree = "<group>"; };
 		D2ABD1A525AC2F1C00E69D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ABD1C825AC314E00E69D8A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2ABD1C925AC314E00E69D8A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 				D2ABD19725AC2F1C00E69D8A /* ZoomkedInTests */,
 				D2ABD1A225AC2F1C00E69D8A /* ZoomkedInUITests */,
 				D2ABD18025AC2F1B00E69D8A /* Products */,
+				D2ABD1C725AC314E00E69D8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +153,14 @@
 				D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D2ABD1C725AC314E00E69D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD1C825AC314E00E69D8A /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
