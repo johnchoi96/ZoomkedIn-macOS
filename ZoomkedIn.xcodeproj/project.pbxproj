@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2ABD18325AC2F1B00E69D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD18225AC2F1B00E69D8A /* AppDelegate.swift */; };
+		D2ABD18525AC2F1B00E69D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD18425AC2F1B00E69D8A /* ViewController.swift */; };
+		D2ABD18825AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD18625AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld */; };
+		D2ABD18A25AC2F1C00E69D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ABD18925AC2F1C00E69D8A /* Assets.xcassets */; };
+		D2ABD18D25AC2F1C00E69D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */; };
+		D2ABD19925AC2F1C00E69D8A /* ZoomkedInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD19825AC2F1C00E69D8A /* ZoomkedInTests.swift */; };
+		D2ABD1A425AC2F1C00E69D8A /* ZoomkedInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABD1A325AC2F1C00E69D8A /* ZoomkedInUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2ABD19525AC2F1C00E69D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2ABD17725AC2F1B00E69D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2ABD17E25AC2F1B00E69D8A;
+			remoteInfo = ZoomkedIn;
+		};
+		D2ABD1A025AC2F1C00E69D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2ABD17725AC2F1B00E69D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2ABD17E25AC2F1B00E69D8A;
+			remoteInfo = ZoomkedIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2ABD17F25AC2F1B00E69D8A /* ZoomkedIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomkedIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ABD18225AC2F1B00E69D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2ABD18425AC2F1B00E69D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2ABD18725AC2F1B00E69D8A /* ZoomkedIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZoomkedIn.xcdatamodel; sourceTree = "<group>"; };
+		D2ABD18925AC2F1C00E69D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2ABD18C25AC2F1C00E69D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2ABD18E25AC2F1C00E69D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ABD18F25AC2F1C00E69D8A /* ZoomkedIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZoomkedIn.entitlements; sourceTree = "<group>"; };
+		D2ABD19425AC2F1C00E69D8A /* ZoomkedInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomkedInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ABD19825AC2F1C00E69D8A /* ZoomkedInTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomkedInTests.swift; sourceTree = "<group>"; };
+		D2ABD19A25AC2F1C00E69D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ABD19F25AC2F1C00E69D8A /* ZoomkedInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomkedInUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ABD1A325AC2F1C00E69D8A /* ZoomkedInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomkedInUITests.swift; sourceTree = "<group>"; };
+		D2ABD1A525AC2F1C00E69D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2ABD17C25AC2F1B00E69D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19125AC2F1C00E69D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19C25AC2F1C00E69D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2ABD17625AC2F1B00E69D8A = {
+			isa = PBXGroup;
+			children = (
+				D2ABD18125AC2F1B00E69D8A /* ZoomkedIn */,
+				D2ABD19725AC2F1C00E69D8A /* ZoomkedInTests */,
+				D2ABD1A225AC2F1C00E69D8A /* ZoomkedInUITests */,
+				D2ABD18025AC2F1B00E69D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2ABD18025AC2F1B00E69D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD17F25AC2F1B00E69D8A /* ZoomkedIn.app */,
+				D2ABD19425AC2F1C00E69D8A /* ZoomkedInTests.xctest */,
+				D2ABD19F25AC2F1C00E69D8A /* ZoomkedInUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2ABD18125AC2F1B00E69D8A /* ZoomkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD18225AC2F1B00E69D8A /* AppDelegate.swift */,
+				D2ABD18425AC2F1B00E69D8A /* ViewController.swift */,
+				D2ABD18925AC2F1C00E69D8A /* Assets.xcassets */,
+				D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */,
+				D2ABD18E25AC2F1C00E69D8A /* Info.plist */,
+				D2ABD18F25AC2F1C00E69D8A /* ZoomkedIn.entitlements */,
+				D2ABD18625AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld */,
+			);
+			path = ZoomkedIn;
+			sourceTree = "<group>";
+		};
+		D2ABD19725AC2F1C00E69D8A /* ZoomkedInTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD19825AC2F1C00E69D8A /* ZoomkedInTests.swift */,
+				D2ABD19A25AC2F1C00E69D8A /* Info.plist */,
+			);
+			path = ZoomkedInTests;
+			sourceTree = "<group>";
+		};
+		D2ABD1A225AC2F1C00E69D8A /* ZoomkedInUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABD1A325AC2F1C00E69D8A /* ZoomkedInUITests.swift */,
+				D2ABD1A525AC2F1C00E69D8A /* Info.plist */,
+			);
+			path = ZoomkedInUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2ABD17E25AC2F1B00E69D8A /* ZoomkedIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ABD1A825AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedIn" */;
+			buildPhases = (
+				D2ABD17B25AC2F1B00E69D8A /* Sources */,
+				D2ABD17C25AC2F1B00E69D8A /* Frameworks */,
+				D2ABD17D25AC2F1B00E69D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomkedIn;
+			productName = ZoomkedIn;
+			productReference = D2ABD17F25AC2F1B00E69D8A /* ZoomkedIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2ABD19325AC2F1C00E69D8A /* ZoomkedInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ABD1AB25AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedInTests" */;
+			buildPhases = (
+				D2ABD19025AC2F1C00E69D8A /* Sources */,
+				D2ABD19125AC2F1C00E69D8A /* Frameworks */,
+				D2ABD19225AC2F1C00E69D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ABD19625AC2F1C00E69D8A /* PBXTargetDependency */,
+			);
+			name = ZoomkedInTests;
+			productName = ZoomkedInTests;
+			productReference = D2ABD19425AC2F1C00E69D8A /* ZoomkedInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2ABD19E25AC2F1C00E69D8A /* ZoomkedInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ABD1AE25AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedInUITests" */;
+			buildPhases = (
+				D2ABD19B25AC2F1C00E69D8A /* Sources */,
+				D2ABD19C25AC2F1C00E69D8A /* Frameworks */,
+				D2ABD19D25AC2F1C00E69D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ABD1A125AC2F1C00E69D8A /* PBXTargetDependency */,
+			);
+			name = ZoomkedInUITests;
+			productName = ZoomkedInUITests;
+			productReference = D2ABD19F25AC2F1C00E69D8A /* ZoomkedInUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2ABD17725AC2F1B00E69D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D2ABD17E25AC2F1B00E69D8A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D2ABD19325AC2F1C00E69D8A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D2ABD17E25AC2F1B00E69D8A;
+					};
+					D2ABD19E25AC2F1C00E69D8A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D2ABD17E25AC2F1B00E69D8A;
+					};
+				};
+			};
+			buildConfigurationList = D2ABD17A25AC2F1B00E69D8A /* Build configuration list for PBXProject "ZoomkedIn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2ABD17625AC2F1B00E69D8A;
+			productRefGroup = D2ABD18025AC2F1B00E69D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2ABD17E25AC2F1B00E69D8A /* ZoomkedIn */,
+				D2ABD19325AC2F1C00E69D8A /* ZoomkedInTests */,
+				D2ABD19E25AC2F1C00E69D8A /* ZoomkedInUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2ABD17D25AC2F1B00E69D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ABD18A25AC2F1C00E69D8A /* Assets.xcassets in Resources */,
+				D2ABD18D25AC2F1C00E69D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19225AC2F1C00E69D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19D25AC2F1C00E69D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2ABD17B25AC2F1B00E69D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ABD18525AC2F1B00E69D8A /* ViewController.swift in Sources */,
+				D2ABD18325AC2F1B00E69D8A /* AppDelegate.swift in Sources */,
+				D2ABD18825AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19025AC2F1C00E69D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ABD19925AC2F1C00E69D8A /* ZoomkedInTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ABD19B25AC2F1C00E69D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ABD1A425AC2F1C00E69D8A /* ZoomkedInUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2ABD19625AC2F1C00E69D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2ABD17E25AC2F1B00E69D8A /* ZoomkedIn */;
+			targetProxy = D2ABD19525AC2F1C00E69D8A /* PBXContainerItemProxy */;
+		};
+		D2ABD1A125AC2F1C00E69D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2ABD17E25AC2F1B00E69D8A /* ZoomkedIn */;
+			targetProxy = D2ABD1A025AC2F1C00E69D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2ABD18B25AC2F1C00E69D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ABD18C25AC2F1C00E69D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2ABD1A625AC2F1C00E69D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2ABD1A725AC2F1C00E69D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2ABD1A925AC2F1C00E69D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoomkedIn/ZoomkedIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZoomkedIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2ABD1AA25AC2F1C00E69D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoomkedIn/ZoomkedIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZoomkedIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2ABD1AC25AC2F1C00E69D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = ZoomkedInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomkedIn.app/Contents/MacOS/ZoomkedIn";
+			};
+			name = Debug;
+		};
+		D2ABD1AD25AC2F1C00E69D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = ZoomkedInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomkedIn.app/Contents/MacOS/ZoomkedIn";
+			};
+			name = Release;
+		};
+		D2ABD1AF25AC2F1C00E69D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = ZoomkedInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZoomkedIn;
+			};
+			name = Debug;
+		};
+		D2ABD1B025AC2F1C00E69D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = ZoomkedInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.ZoomkedInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZoomkedIn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2ABD17A25AC2F1B00E69D8A /* Build configuration list for PBXProject "ZoomkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ABD1A625AC2F1C00E69D8A /* Debug */,
+				D2ABD1A725AC2F1C00E69D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ABD1A825AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ABD1A925AC2F1C00E69D8A /* Debug */,
+				D2ABD1AA25AC2F1C00E69D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ABD1AB25AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ABD1AC25AC2F1C00E69D8A /* Debug */,
+				D2ABD1AD25AC2F1C00E69D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ABD1AE25AC2F1C00E69D8A /* Build configuration list for PBXNativeTarget "ZoomkedInUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ABD1AF25AC2F1C00E69D8A /* Debug */,
+				D2ABD1B025AC2F1C00E69D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2ABD18625AC2F1B00E69D8A /* ZoomkedIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2ABD18725AC2F1B00E69D8A /* ZoomkedIn.xcdatamodel */,
+			);
+			currentVersion = D2ABD18725AC2F1B00E69D8A /* ZoomkedIn.xcdatamodel */;
+			path = ZoomkedIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2ABD17725AC2F1B00E69D8A /* Project object */;
+}
